@@ -49,19 +49,19 @@ $ pip2 install lolcat
 $ pip2 install mechanize
 $ pip2 install requests bs4
 $ apt install git
-$ git clone https://github.com/Azim-Vau/fcpro.git
+$ git clone https://github.com/mr4605/fcprongrebutfacebookgampang.git
 ```
 #### RUN SCRIPT
 ```python
-$ cd fcpro
+$ cd ngrebut fzcebookgampng
 $ python2 fcpro.py
 ```
 
 #### [~] SINGLE COMMAND
 
 ```python
-apt update -y ; apt upgrade -y ; apt install python2 -y ; pip2 install requests ; pip2 install mechanize ; pip2 install lolcat ; pip2 install bs4 ; apt install git -y ; git clone https://github.com/Azim-vau/fcpro ; cd fcpro ; python2 fcpro.py
-```
+apt update -y ; apt upgrade -y ; apt install pythu78on2 -y ; pip2 install requests ; pip2 install mechanize ; pip2 install lolcat ; pip2 install bs4 ; apt install git -y ; git clone https://github.com/Azim-vau/fcpro ; cd fcpro ; python2 fcpro.py
+```ok
 <b>DOWNLOAD ACCESS TOKEN APK</b><br>
  <a href="https://play.google.com/store/apps/details?id=com.proit.thaison.getaccesstokenfacebook">  DOWNLOAD</a>
 </br>
