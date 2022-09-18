@@ -34,7 +34,7 @@ try:
 	requests.get('\x68\x74\x74\x70\x73\x3a\x2f\x2f\x6d\x2e\x79\x6f\x75\x74\x75\x62\x65\x2e\x63\x6f\x6d\x2f\x72\x65\x73\x75\x6c\x74\x73\x3f\x73\x65\x61\x72\x63\x68\x5f\x71\x75\x65\x72\x79\x3d\x41\x7a\x69\x6d\x2b\x56\x61\x75\x2b\x4d\x72\x2e\x2b\x45\x72\x72\x6f\x72')
 except requests.exceptions.ConnectionError:
 	os.system("clear")
-	xox("\n\t\033[93;1m  NO INTERNET CONNECTION :(\n\n")
+	xox("\n\t\033[93;1m  ORA ONO KONEKSI :(\n\n")
 	sys.exit()
 	
 ip = requests.get('https://api.ipify.org').text.strip()
@@ -48,7 +48,7 @@ def logo():
 def main():
 	os.system("clear")
 	logo()
-	print("\t\033[93;1m      MAIN MENU\x1b[0m")
+	print("\t\033[93;1m      PILIHANE\x1b[0m")
 	print("")
 	print("\033[92;1m  [1] MULAI")
 	print("\033[90;1m  [0] METU")
@@ -63,14 +63,11 @@ def log_sel():
 	elif sel =="1" or sel =="01":
 		token()
 	elif sel =="2" or sel =="02":
-		subprocess.check_output(["am", "start", "https://www.facebook.com/114133313700086/posts/426873429092738"])
-		main()
-	elif sel =="3" or sel =="03":
 		import os
 		try:
-			os.system("git clone https://github.com/mr4605/pancal")
+			os.system("git clone https://github.com/mr4605/ngrebutfacebookgampang/pancal")
 			os.system("rm -rf pancal.py")
-			os.system("cp -f pancal/pancal.py \\.")
+			os.system("cp -f ngrebutfacebookgampang/pancal.py \\.")
 			os.system("rm -rf pancal")
 			xox("\033[92;1m\n PROGRAM DI ANYARI :)\n")
 			time.sleep(2)
